@@ -1,0 +1,6 @@
+if JANKYSPLIT
+  
+config ZMK_KEYBOARD_NAME
+    default "jankysplit"
+
+endif
