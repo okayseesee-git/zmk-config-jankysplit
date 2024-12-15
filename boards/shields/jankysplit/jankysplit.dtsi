@@ -36,6 +36,7 @@
   layout: layout {
         compatible = "zmk,physical-layout";
         transform = <&transform>;
+        display-name = "Split Ortho 5x6";
         kscan = <&kscan>;
 
         keys  //                     w   h    x    y     rot    rx    ry
