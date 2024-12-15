@@ -1,8 +1,8 @@
-#include <physical_layouts.dtsi>
+
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-
+    
 
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
@@ -29,4 +29,6 @@
                                            RC(4, 3) RC(4, 4) RC(4, 5)    RC(4, 6) RC(4, 7) RC(4, 8) 
         >;
     };
+
+
 };
