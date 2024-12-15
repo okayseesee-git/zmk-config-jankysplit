@@ -35,7 +35,6 @@
  
   layout: layout {
         compatible = "zmk,physical-layout";
-        display-name = "Split Ortho 5x6";
         transform = <&transform>;
         kscan = <&kscan>;
 
