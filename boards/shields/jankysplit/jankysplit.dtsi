@@ -2,9 +2,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-     chosen {
-        zmk,physical-layout = &layout;
-    };
+
 
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
