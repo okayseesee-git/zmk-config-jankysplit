@@ -1,6 +1,15 @@
-if SHIELD_JANKYSPLIT
+if SHIELD_JANKYSPLIT_LEFT
   
 config ZMK_KEYBOARD_NAME
     default "jankysplit"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_JANKYSPLIT_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
